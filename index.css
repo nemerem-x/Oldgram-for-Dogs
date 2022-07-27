@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: azure;
+}
+
+.container {
+    width: 375px;
+    height: auto;
+    margin: auto;
+    background-color: white;
+    
+}
+
+#render {
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.section0 {
+    display: flex;
+    padding: 10px;
+}
+
+.section0 p {
+    margin: 0;
+    font-size: .8rem;
+}
+
+.section0 p:nth-child(1) {
+    font-weight: 600;
+}
+
+.section0 img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.section1 {
+    position: relative;
+}
+
+.heart.click {
+    display: block;
+    font-size: 4rem;
+    color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.heart {
+    display: none;
+}
+
+.section2 {
+    width: 100%;
+}
+
+.interact img {
+    padding: 5px;
+}
+
+.info {
+    width: 100%;
+}
+
+.info p:nth-child(1){
+    font-weight: 600;
+}
+
+.info p {
+    margin: 0;
+    padding: 0 10px 10px 10px;
+    font-weight: 400;
+    width: 100%;
+    height: auto;
+}
+
+.info p span {
+    font-weight: 600;
+}
