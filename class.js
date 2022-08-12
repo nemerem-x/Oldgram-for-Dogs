@@ -6,7 +6,8 @@ class Post {
     }
     postHtml(){
         let {name, username, location, avatar, post, comment, likes} = this
-        return `<div class="section0">
+        return `
+        <div class="section0">
             <img src="${avatar}" alt="profile">
             <div class="profile">
                 <p>${username}</p>
